@@ -6,8 +6,6 @@ A Flutter project about internal document management in mobile.
 * How to create user-friendly interfaces
 * How to integrate REST API in Flutter
 
-# This project is still being developed by Thu.Thao
-
 
 
 ### Screen shot
@@ -17,5 +15,7 @@ A Flutter project about internal document management in mobile.
 ![account_manager_creen](https://github.com/always-smile-T/Document-Management---mobile-app/blob/master/layout_images/manager_account_screen.png)
 ![change_creen](https://github.com/always-smile-T/Document-Management---mobile-app/blob/master/layout_images/change_info_screen.png)
 
+
+#### This project is still being developed by Thu.Thao
 
 © 2021 Thu.Thao| always-smile-T
