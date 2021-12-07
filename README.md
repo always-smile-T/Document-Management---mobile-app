@@ -12,6 +12,8 @@ A Flutter project about internal document management in mobile.
 ![login_creen](https://github.com/always-smile-T/Document-Management---mobile-app/blob/master/layout_images/login_doma.png)
 ![account_manager_creen](https://github.com/always-smile-T/Document-Management---mobile-app/blob/master/layout_images/manager_account_screen.png)
 
+#### you can see more about layout in folder layout_images
+
 
 #### This project is still being developed by Thu.Thao
 
