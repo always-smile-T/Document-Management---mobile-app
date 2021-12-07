@@ -1,16 +1,15 @@
-# doma_app
+# Welcom to Doma_app
 
-A new Flutter project.
+A Flutter project about internal document management in mobile.
 
-## Getting Started
+## You will find in this repo the following stuff:
+* How to create user-friendly interfaces
+* How to integrate REST API in Flutter
 
-This project is a starting point for a Flutter application.
+# This project is still being developed by Thu.Thao
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Screen shot
+
+© 2021 Thu.Thao| always-smile-T
