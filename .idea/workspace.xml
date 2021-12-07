@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8535c354-a940-40a6-9e03-b8323fe3e167" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/doma_app/cloud_storage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/google-services (3).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/com/example/login111/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/creen1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/creen1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/screen2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/screen2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/screen3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/screen3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/screen4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/screen4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/screen5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/screen5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/blocs/login_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/blocs/login_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/model/document/personal_document.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/model/document/personal_document.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/model/personal_info/info.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/model/personal_info/info.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/model/template/template.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/model/template/template.g.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/glass_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/glass_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/my_account/home_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/my_dashboard/my_dashboard_sreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/my_dashboard/my_dashboard_sreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/template/template_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/template/template_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/ui_view/doma_app_home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/ui_view/doma_app_home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/user_drawer/home_drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/resources/dash_board/user_drawer/home_drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/doma_app/validators/validation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/doma_app/validators/validation.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/app.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/blocs/login_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/blocs/update_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/component/document/file.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/component/document/folder.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/component/template/folder.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/component/template/template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/model/document/personal_document.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/model/personal_info/info.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/model/post.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/model/template/template.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/model/user.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/network/network_request.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/resources/dashboard_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/resources/document_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/resources/login_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/rest_api/rest_api_get.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/rest_api/rest_api_post.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/validators/validation.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/manifest.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Thao\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21KdelzukamE3oQ1HI0Pc1ejCDZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\it\SWP\SWP\doma-mobile\assets\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8535c354-a940-40a6-9e03-b8323fe3e167" name="Default Changelist" comment="" />
+      <created>1637693820236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637693820236</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/doma_app/resources/dash_board/bottom_navigator_view/bottom_bar_view.dart</url>
+          <line>187</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
