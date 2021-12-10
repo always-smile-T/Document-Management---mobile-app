@@ -28,7 +28,7 @@ class _LoginPageState extends State<LoginPage> {
     super.initState();
   }
 
-  void checkLogin() async{
+  /*void checkLogin() async{
     //thu cai nay di
     SharedPreferences pref = await SharedPreferences.getInstance();
     String? val = pref.getString("login");
@@ -36,147 +36,146 @@ class _LoginPageState extends State<LoginPage> {
       Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: gotoDashboard), (route) => false);
       Navigator.push(context, MaterialPageRoute(builder: gotoDashboard));
     }
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
-        constraints: const BoxConstraints.expand(),
-        color: DomaAppTheme.nearlyDarkBlue
-            .withOpacity(0.6),
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              const SizedBox(
-                height: 120,
-              ),
-              const Padding(
-                padding: EdgeInsets.fromLTRB(0, 0, 0, 60),
-                child: Text(
-                  "Hello\nWelcome to login page",
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                      fontSize: 30),
+          padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
+          constraints: const BoxConstraints.expand(),
+          color: DomaAppTheme.nearlyDarkBlue.withOpacity(0.6),
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.end,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                const SizedBox(
+                  height: 120,
                 ),
-              ),
-              Padding(
-                  padding: const EdgeInsets.fromLTRB(0, 0, 0, 40),
-                  child: StreamBuilder(
-                      stream: bloc.emailStream,
-                      builder: (context, snapshot) =>
-                          TextField(
-                            cursorColor: Colors.white,
-                            style: const TextStyle(
-                                fontSize: 18, color: Colors.white),
-                            controller: _emailController,
-                            decoration: InputDecoration(
-                                labelText: "USERNAME",
-                                focusedBorder: const UnderlineInputBorder(
-                                  borderSide: BorderSide(color: Colors.black38),
-                                ),
-                                errorText: snapshot.hasError
-                                    ? snapshot.error.toString()
-                                    : null,
-                                labelStyle:
-                                const TextStyle(
-                                    color: Colors.white, fontSize: 15)),
-                          ))),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(0, 0, 0, 40),
-                child: Stack(
-                  alignment: AlignmentDirectional.centerEnd,
-                  children: <Widget>[
-                    StreamBuilder(
-                      stream: bloc.passStream,
-                      builder: (context, snapshot) =>
-                          TextField(
-                            cursorColor: Colors.white,
-                            style: const TextStyle(
-                                fontSize: 18, color: Colors.white),
-                            controller: _passController,
-                            obscureText:
-                            !_showPass,
-                            //cho nay true thi giau pass, con failse thi ...
-                            //cho nay true thi giau pass
-                            decoration: InputDecoration(
-                                labelText: "PASSWORD",
-                                focusedBorder: const UnderlineInputBorder(
-                                  borderSide: BorderSide(color: Colors.black38),
-                                ),
-                                errorText: snapshot.hasError
-                                    ? snapshot.error.toString()
-                                    : null,
-                                labelStyle: const TextStyle(
-                                    color: Colors.white, fontSize: 15)),
-                          ),),
-                    GestureDetector(
-                      onTap: onToggleShowPass,
-                      child: Text(
-                        _showPass ? "HIDE" : "SHOW",
-                        style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 13,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    )
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                child: SizedBox(
-                  width: double.infinity,
-                  height: 56,
-                  child: ElevatedButton(
-                      child: const Text('SIGN IN', style: TextStyle(color: Colors.white)),
-                      onPressed: login,
-                      style: ButtonStyle(
-                          backgroundColor:
-                          //MaterialStateProperty.all<Color>(Colors.deepPurple),
-                          MaterialStateProperty.all<Color>(Colors.blueAccent),
-                          overlayColor: MaterialStateProperty.all<Color>(
-                              Colors.white70),
-                          foregroundColor:
-                          // MaterialStateProperty.all<Color>(Colors.lightBlueAccent),
-                          MaterialStateProperty.all<Color>(Colors.white70),
-                          elevation: MaterialStateProperty.resolveWith<double>(
-                                (Set<MaterialState> states) {
-                              if (states.contains(MaterialState.pressed) ||
-                                  states.contains(MaterialState.disabled)) {
-                                return 0;
-                              }
-                              return 10;
-                            },
-                          ))
-
+                const Padding(
+                  padding: EdgeInsets.fromLTRB(0, 0, 0, 60),
+                  child: Text(
+                    "Hello\nWelcome to login page",
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 30),
                   ),
                 ),
-              ),
-              SizedBox(
-                height: 130,
-                width: double.infinity,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: const <Widget>[
-                    Text(
-                      'FORGOT PASSWORD?',
-                      style: TextStyle(fontSize: 15, color: Colors.white),
-                    )
-                  ],
+                Padding(
+                    padding: const EdgeInsets.fromLTRB(0, 0, 0, 40),
+                    child: StreamBuilder(
+                        stream: bloc.emailStream,
+                        builder: (context, snapshot) => TextField(
+                              cursorColor: Colors.white,
+                              style: const TextStyle(
+                                  fontSize: 18, color: Colors.white),
+                              controller: _emailController,
+                              decoration: InputDecoration(
+                                  labelText: "USERNAME",
+                                  focusedBorder: const UnderlineInputBorder(
+                                    borderSide:
+                                        BorderSide(color: Colors.black38),
+                                  ),
+                                  errorText: snapshot.hasError
+                                      ? snapshot.error.toString()
+                                      : null,
+                                  labelStyle: const TextStyle(
+                                      color: Colors.white, fontSize: 15)),
+                            ))),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 0, 0, 40),
+                  child: Stack(
+                    alignment: AlignmentDirectional.centerEnd,
+                    children: <Widget>[
+                      StreamBuilder(
+                        stream: bloc.passStream,
+                        builder: (context, snapshot) => TextField(
+                          cursorColor: Colors.white,
+                          style: const TextStyle(
+                              fontSize: 18, color: Colors.white),
+                          controller: _passController,
+                          obscureText: !_showPass,
+                          //cho nay true thi giau pass, con failse thi ...
+                          //cho nay true thi giau pass
+                          decoration: InputDecoration(
+                              labelText: "PASSWORD",
+                              focusedBorder: const UnderlineInputBorder(
+                                borderSide: BorderSide(color: Colors.black38),
+                              ),
+                              errorText: snapshot.hasError
+                                  ? snapshot.error.toString()
+                                  : null,
+                              labelStyle: const TextStyle(
+                                  color: Colors.white, fontSize: 15)),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: onToggleShowPass,
+                        child: Text(
+                          _showPass ? "HIDE" : "SHOW",
+                          style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 13,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      )
+                    ],
+                  ),
                 ),
-              ),
-            ],
-          ),
-        )
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 56,
+                    child: ElevatedButton(
+                        child: const Text('SIGN IN',
+                            style: TextStyle(color: Colors.white)),
+                        onPressed: login,
+                        style: ButtonStyle(
+                            backgroundColor:
+                                //MaterialStateProperty.all<Color>(Colors.deepPurple),
+                                MaterialStateProperty.all<Color>(
+                                    Colors.blueAccent),
+                            overlayColor: MaterialStateProperty.all<Color>(
+                                Colors.white70),
+                            foregroundColor:
+                                // MaterialStateProperty.all<Color>(Colors.lightBlueAccent),
+                                MaterialStateProperty.all<Color>(
+                                    Colors.white70),
+                            elevation:
+                                MaterialStateProperty.resolveWith<double>(
+                              (Set<MaterialState> states) {
+                                if (states.contains(MaterialState.pressed) ||
+                                    states.contains(MaterialState.disabled)) {
+                                  return 0;
+                                }
+                                return 10;
+                              },
+                            ))),
+                  ),
+                ),
+                SizedBox(
+                  height: 130,
+                  width: double.infinity,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: const <Widget>[
+                      Text(
+                        'FORGOT PASSWORD?',
+                        style: TextStyle(fontSize: 15, color: Colors.white),
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          )
 
-        //child: Text("data"),
-        // SvgPicture.asset('assets/images/logo.svg'),
-      ),
+          //child: Text("data"),
+          // SvgPicture.asset('assets/images/logo.svg'),
+          ),
     );
   }
 
@@ -197,10 +196,11 @@ class _LoginPageState extends State<LoginPage> {
 
   //CREATE FUNCTION TO CAL LOGIN POST API
   Future<void> login() async {
-    if(_passController.text.isNotEmpty && _emailController.text.isNotEmpty){
-      if (bloc.isValidUsername(_emailController.text) && bloc.isValidPassword(_passController.text))
-      {
-        var response = await http.post(Uri.parse("http://doma.hexon.systems:4000/api/auth/login"),
+    if (_passController.text.isNotEmpty && _emailController.text.isNotEmpty) {
+      if (bloc.isValidUsername(_emailController.text) &&
+          bloc.isValidPassword(_passController.text)) {
+        var response = await http.post(
+            Uri.parse("http://doma.hexon.systems:4000/api/auth/login"),
             body: ({
               "username": _emailController.text,
               "password": _passController.text
@@ -214,20 +214,17 @@ class _LoginPageState extends State<LoginPage> {
           SharedPreferences pref = await SharedPreferences.getInstance();
           await pref.setString("login", body['access_token']);
           //Navigator.push(context, MaterialPageRoute(builder: gotoDashboard));
-          Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: gotoDashboard), (route) => false);
+          Navigator.of(context).pushAndRemoveUntil(
+              MaterialPageRoute(builder: gotoDashboard), (route) => false);
         } else {
-          ScaffoldMessenger.of(context)
-              .showSnackBar(const SnackBar(content: Text("wrong email or password")));
+          ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text("wrong email or password")));
         }
-      }
-      else {
-      }
+      } else {}
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("Email and password cannot be blank")));
     }
-    else{
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Email and password cannot be blank")));
-    }
-
   }
-
-
 }
+//flutter build apk --release
